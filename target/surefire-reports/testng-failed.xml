@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Tricentis Automation]">
+  <test thread-count="5" verbose="0" name="WebsShopTest(failed)">
+    <classes>
+      <class name="com.tricentis.demowebshop.Login">
+        <methods>
+          <include name="Payment_Test"/>
+          <include name="Initialize"/>
+          <include name="OrderProduct_Test"/>
+        </methods>
+      </class> <!-- com.tricentis.demowebshop.Login -->
+    </classes>
+  </test> <!-- WebsShopTest(failed) -->
+</suite> <!-- Failed suite [Tricentis Automation] -->

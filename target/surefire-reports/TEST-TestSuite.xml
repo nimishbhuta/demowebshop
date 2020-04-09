@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="41.435" tests="3" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="LOGONSERVER" value="\\3WNR5Y2"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="JENKINS_URL" value="http://localhost:8090/"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="=::" value="::\"/>
+    <property name="USERDOMAIN" value="3WNR5Y2"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="JOB_NAME" value="TricentisDemoAutomationJob"/>
+    <property name="COMPUTERNAME" value="3WNR5Y2"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="user.name" value="Bhuta Nimish"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="windir" value="C:\windows"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="LOCALAPPDATA" value="C:\Users\Bhuta Nimish\AppData\Local"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8090/job/TricentisDemoAutomationJob/10/display/redirect?page=changes"/>
+    <property name="user.timezone" value="Europe/Belgrade"/>
+    <property name="user.script" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="NUMBER_OF_PROCESSORS" value="8"/>
+    <property name="BUILD_TAG" value="jenkins-TricentisDemoAutomationJob-10"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Bhuta Nimish\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven C:\Users\Bhuta Nimish\.jenkins\war\WEB-INF\lib\remoting-4.2.jar C:\Users\Bhuta Nimish\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\Bhuta Nimish\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 51595"/>
+    <property name="HUDSON_URL" value="http://localhost:8090/"/>
+    <property name="JENKINS_SERVER_COOKIE" value="a1da12d54fe17ba3"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_241/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander;;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\GuptaEngine;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\DelphiEngine;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\PBEngine;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\VBEngine;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\DotNetHooking;;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_241\bin;C:\apache-maven-3.6.3\bin;"/>
+    <property name="TRICENTIS_DEX_AGENT_HOME" value="C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\DistributedExecution\"/>
+    <property name="java.io.tmpdir" value="C:\Users\BHUTAN~1\AppData\Local\Temp\"/>
+    <property name="APPDATA" value="C:\Users\Bhuta Nimish\AppData\Roaming"/>
+    <property name="user.language" value="en"/>
+    <property name="TBOX_HOME" value="C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\TBox\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="BUILD_URL" value="http://localhost:8090/job/TricentisDemoAutomationJob/10/"/>
+    <property name="TESSDATA_PREFIX" value="C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ocr"/>
+    <property name="M2_HOME" value="C:\Users\Bhuta Nimish\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="TRICENTIS_SEARCH" value="C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander;;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\GuptaEngine;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\DelphiEngine;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\PBEngine;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\VBEngine;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\DotNetHooking;"/>
+    <property name="=C:" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="BUILD_DISPLAY_NAME" value="#10"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="HUDSON_SERVER_COOKIE" value="a1da12d54fe17ba3"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\Bhuta Nimish\.jenkins\workspace\TricentisDemoAutomationJob@tmp"/>
+    <property name="MAVEN_HOME" value="C:\Users\Bhuta Nimish\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="maven3.interceptor.common" value="C:\Users\Bhuta Nimish\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="COMMANDER_HOME" value="C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander"/>
+    <property name="HOMEPATH" value="\Users\Bhuta Nimish"/>
+    <property name="TRICENTIS_ALLUSERS_APPDATA" value="C:\ProgramData\TRICENTIS\Tosca Testsuite\7.0.0"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="10"/>
+    <property name="maven3.interceptor" value="C:\Users\Bhuta Nimish\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Users\Bhuta Nimish\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files\Java\jdk1.8.0_241/bin;C:\Program Files\Java\jdk1.8.0_241/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander;;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\GuptaEngine;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\DelphiEngine;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\PBEngine;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\VBEngine;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\DotNetHooking;;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_241\bin;C:\apache-maven-3.6.3\bin;;."/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="POM_GROUPID" value="com.tricentis"/>
+    <property name="POM_ARTIFACTID" value="demowebshop"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="JOB_URL" value="http://localhost:8090/job/TricentisDemoAutomationJob/"/>
+    <property name="OneDrive" value="C:\Users\Bhuta Nimish\OneDrive"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8090/job/TricentisDemoAutomationJob/10/display/redirect"/>
+    <property name="JENKINS_HOME" value="C:\Users\Bhuta Nimish\.jenkins"/>
+    <property name="BUILD_ID" value="10"/>
+    <property name="TEMP" value="C:\Users\BHUTAN~1\AppData\Local\Temp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="TRICENTIS_LICENSING_HOME" value="C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Licensing"/>
+    <property name="user.variant" value=""/>
+    <property name="PROCESSOR_REVISION" value="8e0a"/>
+    <property name="TRICENTIS_PROJECTS" value="C:\Tosca_Projects\"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="HUDSON_HOME" value="C:\Users\Bhuta Nimish\.jenkins"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="PATH+MAVEN" value="C:\Users\Bhuta Nimish\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="3WNR5Y2"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_241"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="USERPROFILE" value="C:\Users\Bhuta Nimish"/>
+    <property name="TRICENTIS_HOME" value="C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8090/job/TricentisDemoAutomationJob/display/redirect"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Bhuta Nimish"/>
+    <property name="USERNAME" value="Bhuta Nimish"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="user.dir" value="C:\Projects\Selenium\demowebshop"/>
+    <property name="maven.conf" value="C:\Users\Bhuta Nimish\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\conf"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="TMP" value="C:\Users\BHUTAN~1\AppData\Local\Temp"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="ESET_OPTIONS" value="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               "/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="java.class.path" value="C:\Users\Bhuta Nimish\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\Bhuta Nimish\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\boot\plexus-classworlds-2.6.0.jar;C:\Users\Bhuta Nimish\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="WORKSPACE" value="C:\Users\Bhuta Nimish\.jenkins\workspace\TricentisDemoAutomationJob"/>
+    <property name="ComSpec" value="C:\windows\system32\cmd.exe"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+    <property name="SystemRoot" value="C:\windows"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+    <property name="file.separator" value="\"/>
+    <property name="ChocolateyInstall" value="C:\ProgramData\chocolatey"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_241/bin"/>
+    <property name="=ExitCode" value="00000001"/>
+    <property name="user.country" value="US"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="maven.home" value="C:\Users\Bhuta Nimish\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="JOB_BASE_NAME" value="TricentisDemoAutomationJob"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="demowebshop"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+  </properties>
+  <testcase name="Login_Test" classname="com.tricentis.demowebshop.Login" time="6.276"/>
+  <testcase name="OrderProduct_Test" classname="com.tricentis.demowebshop.Login" time="12.034">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#CreditCardType&quot;}&#10;  (Session info: chrome=80.0.3987.163)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;3WNR5Y2&apos;, ip: &apos;192.168.10.166&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\BHUTAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: eeeb2cd9c2329184704986337e98b495&#10;*** Element info: {Using=id, value=CreditCardType}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#CreditCardType"}
+  (Session info: chrome=80.0.3987.163)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '3WNR5Y2', ip: '192.168.10.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\BHUTAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: eeeb2cd9c2329184704986337e98b495
+*** Element info: {Using=id, value=CreditCardType}
+	at com.tricentis.demowebshop.Login.OrderProduct_Test(Login.java:110)
+</failure>
+    <system-out><![CDATA[This is inside function04
+Convert Integer04
+4
+This is inside function04
+Convert Integer04
+]]></system-out>
+  </testcase>
+  <testcase name="Payment_Test" classname="com.tricentis.demowebshop.Login" time="10.087">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[contains(@class,&apos;continue-button&apos;)]&quot;}&#10;  (Session info: chrome=80.0.3987.163)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;3WNR5Y2&apos;, ip: &apos;192.168.10.166&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\BHUTAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: eeeb2cd9c2329184704986337e98b495&#10;*** Element info: {Using=xpath, value=//input[contains(@class,&apos;continue-button&apos;)]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(@class,'continue-button')]"}
+  (Session info: chrome=80.0.3987.163)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '3WNR5Y2', ip: '192.168.10.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\BHUTAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: eeeb2cd9c2329184704986337e98b495
+*** Element info: {Using=xpath, value=//input[contains(@class,'continue-button')]}
+	at com.tricentis.demowebshop.Login.Payment_Test(Login.java:153)
+</failure>
+    <system-out><![CDATA[Demo Web Shop. Checkout
+This is the title Demo Web Shop. Checkout
+]]></system-out>
+  </testcase>
+</testsuite>

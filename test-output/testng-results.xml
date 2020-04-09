@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23859" started-at="2020-04-07T11:36:04Z" finished-at="2020-04-07T11:36:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23859" started-at="2020-04-07T11:36:04Z" finished-at="2020-04-07T11:36:28Z">
+      <class name="com.tricentis.demowebshop.Login">
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:com.tricentis.demowebshop.Login@4563e9ab]" name="Initialize" is-config="true" duration-ms="10509" started-at="2020-04-07T13:36:04Z" finished-at="2020-04-07T13:36:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method status="PASS" signature="Login_Test(java.lang.String, java.lang.String)[pri:0, instance:com.tricentis.demowebshop.Login@4563e9ab]" name="Login_Test" duration-ms="5646" started-at="2020-04-07T13:36:14Z" data-provider="testData" finished-at="2020-04-07T13:36:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nbhuta@siisweden.test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Quality@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Test -->
+        <test-method status="PASS" signature="OrderProduct_Test()[pri:0, instance:com.tricentis.demowebshop.Login@4563e9ab]" name="OrderProduct_Test" duration-ms="3725" started-at="2020-04-07T13:36:20Z" finished-at="2020-04-07T13:36:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderProduct_Test -->
+        <test-method status="PASS" signature="Payment_Test()[pri:0, instance:com.tricentis.demowebshop.Login@4563e9ab]" name="Payment_Test" duration-ms="3951" started-at="2020-04-07T13:36:24Z" finished-at="2020-04-07T13:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Payment_Test -->
+      </class> <!-- com.tricentis.demowebshop.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
